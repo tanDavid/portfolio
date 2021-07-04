@@ -40,7 +40,7 @@ session_start();
                 $userId = $_SESSION['user_id'];
 
            
-
+//fghfghfhfhg
                 $query = "delete from sleep where user_id='$userId'";
                 $status = mysqli_query($link, $query) or die(mysqli_error($link));
 
